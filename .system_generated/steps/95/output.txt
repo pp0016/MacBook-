@@ -1,0 +1,39 @@
+The search for "Mac mini M5 price India specifications RAM options 2026 vs MacBook Air M5" returned the following summary:
+As of October 1, 2026, the **Mac mini M5** is not the latest model in its lineup; Apple released the new **Mac mini with M6 and M5 Pro chips** in September 2026. Conversely, the **MacBook Air M5** was released earlier in the year (March 2026).
+
+### **Mac mini (2026 Refresh)**
+Apple refreshed the Mac mini in August 2026, skipping a standalone "M5" base model in favor of the **M6** and **M5 Pro** chips.
+
+*   **Chip Options:**
+    *   **M6 Chip:** 12-core CPU, 12-core GPU.
+    *   **M5 Pro Chip:** 18-core CPU, 20-core GPU.
+*   **RAM Options:**
+    *   **M6 Model:** Starts at 16GB, configurable up to 32GB.
+    *   **M5 Pro Model:** Starts at 24GB, configurable up to 64GB.
+*   **Price in India (Starting):**
+    *   **Mac mini M6:** Starts at **₹99,900** (Education price: ₹88,900).
+    *   **Mac mini M5 Pro:** Starts at **₹2,09,900** (Education price: ₹1,97,900).
+*   **Key Features:** Support for Wi-Fi 7, Bluetooth 6, and Apple Intelligence (including Siri AI).
+
+---
+
+### **MacBook Air M5 (Released March 2026)**
+The MacBook Air M5 continues to be the primary thin-and-light laptop offering from Apple for 2026.
+
+*   **Chip:** Apple M5 (10-core CPU; 8-core or 10-core GPU options).
+*   **RAM Options:** Starts at 16GB unified memory, configurable up to 32GB.
+*   **Storage:** Starts at 512GB SSD (configurable up to 4TB).
+*   **Price in India:** Prices vary by retailer and configuration, typically starting around **₹1,19,900** for the 13-inch model, with higher-end configurations (or 15-inch models) reaching **₹1,49,900** and above.
+*   **Key Features:** 18-hour battery life, Liquid Retina display (13.6-inch or 15.3-inch), Wi-Fi 7, Bluetooth 6, and support for two external displays.
+
+### **Summary Comparison**
+
+| Feature | Mac mini (2026) | MacBook Air M5 (2026) |
+| :--- | :--- | :--- |
+| **Primary Chip** | M6 / M5 Pro | M5 |
+| **Base RAM** | 16GB | 16GB |
+| **Max RAM** | Up to 64GB (M5 Pro) | Up to 32GB |
+| **Form Factor** | Desktop (Headless) | Portable Laptop |
+| **Starting Price (India)** | ₹99,900 (M6) | ~₹1,19,900 |
+
+If you are looking for maximum performance or pro-level workflows, the **Mac mini M5 Pro** is significantly more powerful than the MacBook Air M5. If you require portability, the **MacBook Air M5** remains the standard choice.

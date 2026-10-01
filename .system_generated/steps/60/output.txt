@@ -1,0 +1,24 @@
+The search for "MacBook Air M5 Geekbench Metal GPU score vs MacBook Pro M5 sustained benchmark difference" returned the following summary:
+When comparing the **MacBook Air (M5)** and the **MacBook Pro (M5)**, the primary performance difference lies not in the "peak" burst speed—where they are often competitive—but in **sustained performance** and thermal management.
+
+### Key Performance Differences
+
+*   **Thermal Design (Fan vs. Fanless):** The most significant hardware difference is that the MacBook Air (M5) is a fanless, passive-cooled device. While it handles short, "bursty" tasks (like opening apps or quick photo edits) extremely well, it will eventually throttle its performance under heavy, sustained workloads to manage heat. In contrast, the MacBook Pro (M5) includes active cooling (fans), which allows it to maintain higher clock speeds for much longer periods during tasks like 3D rendering, video exporting, or prolonged gaming.
+*   **GPU Sustained Output:** Because of the thermal constraints, the MacBook Air’s GPU performance will see a more noticeable drop-off after a few minutes of intense use. The MacBook Pro is designed to maintain consistent frame rates and rendering speeds throughout long tasks, making it the better choice for professional creative workflows.
+*   **Chip Variants:** 
+    *   The **MacBook Air (M5)** typically comes with the base M5 chip (8 or 10-core GPU).
+    *   The **MacBook Pro (M5)** is available with the base M5 chip, but also offers the **M5 Pro** and **M5 Max** variants. These higher-tier chips significantly outperform the base M5 in both raw Geekbench Metal scores and sustained multi-core/GPU workloads due to having more GPU cores, higher memory bandwidth, and larger thermal envelopes.
+
+### Performance Context (Geekbench & Benchmarks)
+*   **Geekbench Metal Scores:** In short synthetic tests like Geekbench, the base M5 in the MacBook Air and the base M5 in the MacBook Pro will show similar results, as these tests are short enough that the Air does not hit its thermal limit. 
+*   **Scaling:** As you move to the M5 Pro or M5 Max in the MacBook Pro, GPU performance scales significantly. For instance, the M5 Pro/Max variants provide substantially higher memory bandwidth (up to 307GB/s for the M5 Pro compared to 153GB/s for the base M5), which is crucial for memory-intensive creative applications.
+
+### Summary Comparison
+| Feature | MacBook Air (M5) | MacBook Pro (M5 / Pro / Max) |
+| :--- | :--- | :--- |
+| **Cooling** | Passive (Fanless) | Active (Fans) |
+| **Sustained Performance** | Drops after thermal saturation | Consistent and stable |
+| **Best For** | Daily productivity, light creative work | Heavy creative work, 3D, gaming |
+| **GPU Options** | Base M5 (8/10-core) | M5, M5 Pro, M5 Max |
+
+**Recommendation:** If your workflow involves long durations of high GPU utilization (such as 4K/8K video editing or 3D modeling), the MacBook Pro is the necessary choice to avoid performance throttling. If your work is primarily office-based, web-heavy, or involves short bursts of editing, the MacBook Air (M5) is highly efficient and capable.

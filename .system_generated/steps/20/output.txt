@@ -1,0 +1,17 @@
+The search for "Apple M5 chip AV1 encode hardware ProRes media engine Thunderbolt version" returned the following summary:
+The Apple M5 series of chips features varying media engine capabilities and connectivity standards depending on the specific model (base, Pro, or Max).
+
+### **AV1 and Media Engine Capabilities**
+All variants of the M5 chip include a powerful Media Engine capable of hardware-accelerated **AV1 decoding**. 
+
+Regarding **AV1 hardware encoding**, this capability is present in the **M5 Pro and M5 Max** chips, completing the full "round-trip" of hardware-accelerated support for these professional tiers.
+
+The Media Engine specifications generally include:
+*   **Decoding:** Hardware-accelerated H.264, HEVC, ProRes, ProRes RAW, and **AV1**.
+*   **Encoding:** Hardware-accelerated H.264, HEVC, and ProRes.
+*   **Pipeline Scaling:** The **M5 Max** doubles the media pipeline compared to the base M5 and M5 Pro, featuring two video encode engines and two ProRes encode and decode engines.
+
+### **Thunderbolt Version**
+Connectivity standards for Thunderbolt differ by chip tier:
+*   **Apple M5 (Base):** Supports **Thunderbolt 4** (up to 40Gb/s).
+*   **Apple M5 Pro and M5 Max:** Feature integrated **Thunderbolt 5** controllers on-chip, with each port backed by its own dedicated controller to allow for full, simultaneous bandwidth across all ports.

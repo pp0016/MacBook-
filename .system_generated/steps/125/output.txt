@@ -1,0 +1,6 @@
+
+The command exited with code 0.
+Output:
+02eee6c92eca4e774b88ffc1e9e49fc0706bb334	HEAD
+02eee6c92eca4e774b88ffc1e9e49fc0706bb334	refs/heads/main
+

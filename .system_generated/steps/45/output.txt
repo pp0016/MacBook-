@@ -1,0 +1,36 @@
+The following changes were made by the replace_file_content tool to: C:\Users\renu5\.gemini\antigravity\brain\4822e66b-d57e-4765-a405-82816c5bc417\m3_vs_m4_vs_m5_comparison.md. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -62,19 +62,23 @@
+ 
+ | Benchmark | M3 | M4 | M5 | M3→M5 Gain |
+ |:---|:---|:---|:---|:---|
+-| **Geekbench 6 Single-Core** | ~3,100 | ~3,850 | ~4,250 | +37% |
+-| **Geekbench 6 Multi-Core** | ~12,000 | ~14,600 | ~17,400 | +45% |
+-| **GB6 GPU (Metal)** | ~30,000 (est.) | ~35,000 (est.) | ~42,000 (est.) | +40% |
+-| **Neural Engine TOPS** | 18 | 38 | ~50 + GPU accelerators | ~2.8x (NPU only) |
++| **Geekbench 6 Single-Core** | ~3,150 | ~3,850 | ~4,285 | +36% |
++| **Geekbench 6 Multi-Core** | ~11,900 | ~14,700 | ~17,850 | +50% |
++| **GB6 GPU Metal** | ~47,500 (10-core) | ~57,500 (10-core) | ~76,120 (10-core) | +60% |
++| **Cinebench 2024 SC / MC** | ~141 / ~635 | ~175 / ~960 | ~208 / ~1,275 | +47% / +101% |
++| **Cinebench R23 SC / MC** | ~1,905 / ~10,350 | ~2,275 / ~13,750 | est. >2,500 / >16,000 | +31% / +55% |
++| **Neural Engine TOPS** | 18 | 38 | Undisclosed + GPU accelerators | >2x (NPU) + GPU AI |
+ | **Memory Bandwidth** | 100 GB/s | 120 GB/s | 153 GB/s | +53% |
+ 
+ > [!NOTE]
+-> Geekbench scores vary by device (Air vs Pro) due to thermal management. Air models throttle 20-25% under sustained load because there's no fan. The scores above are typical, not peak.
++> Geekbench and Cinebench scores vary by device (Air vs Pro) due to thermal management. Air models throttle 20-25% under sustained load because there's no fan. The Metal GPU score is especially affected — the M5 Pro 14" scores ~76,100 while the Air will be lower under sustained load. The scores above are from actively cooled chassis unless noted.
+ 
+ ### What These Numbers Feel Like in Practice
+ 
+-- **37% single-core gain (M3→M5):** An app launch that took 1.4 seconds now takes ~1.0 second. Perceptible in a stopwatch test. Imperceptible in your life.
+-- **45% multi-core gain:** A Rust project clean build goes from 90 seconds to ~62 seconds. Noticeable if you compile hourly. Irrelevant if you're a web developer.
++- **36% single-core gain (M3→M5):** An app launch that took 1.4 seconds now takes ~1.0 second. Perceptible in a stopwatch test. Imperceptible in your life.
++- **50% multi-core gain:** A Rust project clean build goes from 90 seconds to ~60 seconds. Noticeable if you compile hourly. Irrelevant if you're a web developer.
++- **60% GPU Metal gain:** This is the biggest generational jump. The M5's ~76K Metal score puts it in a different class for GPU compute — games, video encoding, and especially AI inference via Metal shaders. For context, the M3's ~47K was already overkill for 4K video playback and casual gaming.
++- **Cinebench 2024 multi-core doubled (M3→M5):** From ~635 to ~1,275. This matters for sustained multi-threaded workloads — rendering, compilation, batch processing. But only in the Pro chassis with active cooling; the Air will throttle this down by 20-25%.
+ - **2.5–3x AI throughput:** Running Whisper transcription locally: M3 processes at ~0.8x real-time, M5 does ~2x real-time. Running Llama 3 8B Q4: M3 generates ~15 tok/s, M5 generates ~35-40 tok/s. This is the one area where the upgrade is transformative rather than incremental.
+ 
+ ---
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

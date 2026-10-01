@@ -1,0 +1,33 @@
+The search for "M5 MacBook Air battery life neural engine TOPS specifications" returned the following summary:
+The MacBook Air (M5, 2026) was released in March 2026. Below are the key specifications regarding its battery life and Neural Engine capabilities.
+
+### **Battery Life**
+The M5 MacBook Air is rated for:
+*   **Up to 18 hours** of video streaming.
+*   **Up to 15 hours** of wireless web browsing.
+*   It utilizes a built-in 53.8-watt-hour lithium-polymer battery and supports fast charging with a 70W or higher USB-C power adapter.
+
+### **Neural Engine & AI Performance**
+The M5 chip features a significant focus on AI-driven workflows through a combination of hardware components:
+*   **16-core Neural Engine:** The M5 chip retains the 16-core Neural Engine architecture[1][2], which is optimized for machine learning and on-device AI tasks.
+*   **Neural Accelerators:** A notable advancement in the M5 generation is the inclusion of a **dedicated Neural Accelerator within each GPU core**[3][2]. This architecture is specifically designed to accelerate GPU-based AI workloads and Large Language Models (LLMs)[3][2].
+*   **Performance Gains:** Apple claims the M5 architecture delivers up to 4x the peak GPU compute performance for AI compared to the M4 chip[2][4]. While Apple typically does not publish exact "TOPS" (Trillions of Operations Per Second) figures in their standard technical specifications, the integration of these per-core Neural Accelerators represents the primary hardware evolution for AI tasks in this generation[3][5].
+
+### **Summary of Key Specifications**
+| Feature | Specification |
+| :--- | :--- |
+| **Chip** | Apple M5 (10-core CPU, up to 10-core GPU) |
+| **Neural Engine** | 16-core[1][2] |
+| **AI Hardware** | Neural Accelerators in each GPU core[3][2] |
+| **Memory Bandwidth** | 153GB/s[1][2] |
+| **Battery Life** | Up to 18 hours (video) / 15 hours (web)[6][3] |
+| **Connectivity** | Wi-Fi 7, Bluetooth 6 (via new N1 chip)[7][3] |
+
+Sources:
+[1] [wccftech.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwIL_JSPYsp6ghLe67EC7eMxUkVMXU2ZsOHyAbYOeuVX7ftKFM5hZAgPpbRDx8Av4UZYL7Vj9AQysa_ACaXIVUnZMUUpj5AYjuBAv7D5aMXOjbP9nW_osGduFDEoe9Ngw_kG0t-LZ7QRAUYewWhJq2ZePAAhMlfB4kajw6YdBx-oAMUgZ6IZy1ACDk8rjjiA==)
+[2] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVpDlPHDIdgEMpteO3T2xzHZvODyHZl1B2Ta42TU4tfKf99DTo3YL3aX-Ajgkfon9ogVK5_hb19rTDtnoYth-tQ-XIxRnRHXOFNPDboZPUkl_GFR74zB7jpx3c3CuFbt6Aaj1IYUqVO6OjAiOcPuiAzmtfY-pUkpZenzypIJ9VmGUunpWmZ6KRbiWIQ7s6OdXMEa76w5r518ycvqpn9LYLFa83ZP0qnNXg)
+[3] [fonearena.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgz4etsXaR28LLiVgQ85nPEy94AsmGEadxM8uVXJ3yCFgkpm2XWDiKO7K9fQmbsF4uNh-wplmSYvzKibpB0rUlT3RG4JCvy4KYf2zfrmgOaPc8rRtXYtdkyUGuHMkVx25pVbTmV77gUkIKk7ezojADGcAgJo90pow-Og3_QttP1K9_ilh2vzL-c4Q=)
+[4] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN5yjt-WEk-zGS3L1exRsdDTR5oWlCsbsMGdpvHYIF76OFcgaqP8gTe7b_J9sj-FsHeeCTd_MsQJtH8siq00VfaziBWveRT8Z-KUn0iI12Kzf2ij2RXe2LfxXs59oRpZT2GnHtz0Lk6AIMWQPUyV1kctOFvQftsUfSPCKSqhuoaz_HU4ld6hojbhSb5mYjBuIWSUFhIjUucgwP3zw4W2BTLlswPqNMMw3xsqeZkGp9)
+[5] [reliancedigital.in](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF24Cj21eT1Q883ZpB7xzkwCBJgGGz40ZgHlCvGCkcXzH6RXvRJKaC4-OSjxMl29QemIRqt8TbQMAxOJhuD7ubRAk9ru3v-QBs7IXEyf1nicHKyia1JNu_iiV2IrvBXLDie3qnew90da6rW2eHSDmwNfFzfJqA6msScYAnfTSGU_7cIOV4NPWTlrLqD)
+[6] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVgNlZXspUX48u1_87ZFvcnb3yBfyNz4IxO6JkJ8FFUgSeOwuxBMCNMIf1AspYcF_Jyzk4YTqK9fj5WM7H0Z7H6B_isymQmwxien1j5-YLW5X4zLTt4u3Rc5vCFQ==)
+[7] [box.co.uk](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQAvj3V8E8HDTCU0AtWJEPB-jCIu6mDEVN9H0DEA7tR2r4jcAtTkx9o6cP1qY7tsh78C46cqiEOhK7CQbFF43Qmu0QpM2a_RUVukfHJAKyNiV2GqIzlr0KukArIPUTs8S7ffxd3jYPrUAg)

@@ -1,0 +1,22 @@
+The search for "MacBook Air M5 15 inch India price 179900 specifications GPU cores 8 or 10 apple.com/in" returned the following summary:
+The 15-inch MacBook Air with the **M5 chip** features a **10-core GPU** as standard across its configurations[1].
+
+Regarding your query on pricing:
+*   **Pricing:** The 15-inch MacBook Air with the M5 chip starts at **₹1,44,900** in India[2]. 
+*   **Clarification:** You mentioned a price of ₹1,79,900; please note that higher-tier configurations (with more unified memory or storage) may reach or exceed this price point, but the base model starts at the lower price mentioned above[2][1].
+
+### Key Specifications (15-inch MacBook Air M5)
+*   **Chip:** Apple M5 chip[3]
+*   **CPU:** 10-core CPU (4 performance cores and 6 efficiency cores)[3]
+*   **GPU:** 10-core GPU[3][1]
+*   **Neural Engine:** 16-core[3]
+*   **Display:** 15.3-inch Liquid Retina display[3]
+*   **Memory:** Starts at 16GB unified memory (configurable to 24GB or 32GB)[3]
+*   **Storage:** Starts at 512GB SSD (configurable up to 4TB)[3]
+
+For the most accurate pricing on specific configurations (e.g., increased RAM or SSD), you can visit the official [Apple Store India website](https://www.apple.com/in/shop/buy-mac/macbook-air/15-inch-m5).
+
+Sources:
+[1] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwFEVSgmGHdEUWu1f_eFoRagoJNFn_j46mz4-sXZsxjvyRb7vsFjovINvK2LFRz_bCHodO2m79-I9j7_Ns7V1Y89n_JVo-mkLxC4FJCERnFiDQ160j3u_mKFynKCOlmLprbETqqRZoqJoob6xNaA==)
+[2] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtM_a5shHO1r1FAtNpSym06qjUHoYwTfgrsgftn_Jufbbw0mPvf9Hf88RGwmCWdLKPvSPZ2XXdNMuahjC0KNwXASlnzoEwDd6SQzJ0B_QSJGLtgajrlA7Cso4O6Cu72sV5TdxPoWOoQgOF0C4xvI4U7vNfpmiYXCt0fHdjcIG258EnjnGAcoFC9padjQ==)
+[3] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPxXtBpZGTF9stJtGowbjU507JZyEuxdIjc68Z3ebfozXIPB0PVQAQBdBFXXp8d60BKPNHEXTRqI632b1E1_3P3J4InUXzgJbiJ20OmK1Q2u27Xi2cDXyVIhzS)

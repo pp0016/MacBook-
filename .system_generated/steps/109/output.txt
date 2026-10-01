@@ -1,0 +1,31 @@
+The search for "Mac mini Ollama API remote access MacBook Air Thunderbolt vs WiFi latency LLM token speed" returned the following summary:
+To enable remote access to your Mac mini's Ollama instance, you must configure the `OLLAMA_HOST` environment variable to bind to all network interfaces (`0.0.0.0`) instead of the default `127.0.0.1` (localhost).
+
+### **Setting Up Remote Access**
+Because GUI applications on macOS often do not inherit shell environment variables (like those in `.zshrc`), the most reliable way to persist this setting is via a **LaunchAgent**:
+
+1.  **Create a LaunchAgent file:** Create `~/Library/LaunchAgents/com.ollama.server.plist`.
+2.  **Add Configuration:** Use the following XML structure to force Ollama to listen on all interfaces:
+    ```xml
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>OLLAMA_HOST</key>
+        <string>http://0.0.0.0:11434</string>
+    </dict>
+    ```
+3.  **Load the Agent:** Use `launchctl load -w ~/Library/LaunchAgents/com.ollama.server.plist` and restart.
+4.  **Security Note:** The Ollama API lacks built-in authentication. It is highly recommended to place your Mac mini behind a **VPN (like Tailscale)** or use a **reverse proxy** with authentication to prevent unauthorized access.
+
+---
+
+### **Thunderbolt Bridge vs. Wi-Fi Latency**
+When considering Thunderbolt Bridge versus Wi-Fi for LLM "token speed," it is important to distinguish between **network transit latency** and **inference latency**.
+
+*   **Network Latency:** Thunderbolt Bridge offers significantly higher bandwidth and lower latency than Wi-Fi for transferring data between two Macs. However, for a standard request-response API pattern, the network latency of a modern Wi-Fi connection is rarely the bottleneck for LLM generation. 
+*   **The Real Bottleneck:** LLM token speed is primarily determined by **memory bandwidth** (the speed at which your Mac’s Unified Memory can feed the GPU). Connecting two computers via Thunderbolt to "split" a model (distributed inference) is generally **slower** than running on a single machine due to the massive overhead of passing activations across the network. 
+    *   *Example:* In cluster setups, the interconnect throughput (even over Thunderbolt) is often hundreds of times slower than the internal memory bandwidth of a single M-series chip. Adding a second machine often degrades performance unless the model is so large it *cannot* fit on a single device's memory.
+
+### **Summary of Performance Factors**
+*   **Token Generation Speed:** This is bound by the **Unified Memory Architecture (UMA)** of your Mac. Upgrading to a newer chip (e.g., M4/M5) with higher memory bandwidth will yield far greater performance gains than changing your network connection.
+*   **API Latency:** If you notice a "slow start" or high latency via API compared to the CLI, ensure you are **streaming the output** (`"stream": true`). LLMs generate tokens sequentially, and waiting for a full response to be generated before receiving it creates a significant "time-to-first-token" delay.
+*   **Software Optimization:** Ensure you are using models that take advantage of Apple’s **MLX framework**. Recent updates to Ollama (v0.19+) have shown that using MLX-compatible models can nearly double decode speeds compared to the older `llama.cpp` Metal backend.

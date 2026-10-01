@@ -1,0 +1,57 @@
+The search for "use Mac mini as server run Ollama LLM access from MacBook Air remotely network 2026 setup" returned the following summary:
+To set up your Mac mini as an Ollama server that you can access remotely from your MacBook Air, you need to configure Ollama to listen on your network interface rather than just your local loopback address.
+
+### Step 1: Configure Ollama to Listen on the Network
+By default, Ollama only listens on `127.0.0.1` (localhost). To allow network access, you must set the `OLLAMA_HOST` environment variable to `0.0.0.0:11434`. 
+
+Since macOS GUI apps do not inherit environment variables from your shell profile (like `.zshrc`), the most reliable way to do this is via a `launchd` agent:
+
+1.  **Create a LaunchAgent file:**
+    Open Terminal on your Mac mini and run:
+    ```bash
+    touch ~/Library/LaunchAgents/com.ollama.server.plist
+    open -e ~/Library/LaunchAgents/com.ollama.server.plist
+    ```
+
+2.  **Add the configuration:**
+    Paste the following XML into the file:
+    ```xml
+    <?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+    <plist version="1.0">
+    <dict>
+        <key>Label</key>
+        <string>com.ollama.server</string>
+        <key>ProgramArguments</key>
+        <array>
+            <string>/usr/local/bin/ollama</string>
+            <string>serve</string>
+        </array>
+        <key>EnvironmentVariables</key>
+        <dict>
+            <key>OLLAMA_HOST</key>
+            <string>0.0.0.0:11434</string>
+        </dict>
+        <key>RunAtLoad</key>
+        <true/>
+    </dict>
+    </plist>
+    ```
+    *(Note: If your Ollama binary is in a different location, verify it by running `which ollama` in Terminal and update the path accordingly.)*
+
+3.  **Load the configuration:**
+    Run this command in Terminal to start the service:
+    ```bash
+    launchctl load -w ~/Library/LaunchAgents/com.ollama.server.plist
+    ```
+    Restart your Mac mini, and Ollama will now be accessible across your local network.
+
+### Step 2: Access from your MacBook Air
+Once the Mac mini is set up, you can connect to it from your MacBook Air:
+
+*   **Find your Mac mini's IP:** On the Mac mini, go to **System Settings > Network** to find its local IP address (e.g., `192.168.1.10`).
+*   **Connecting:** Any application (like Open WebUI or a custom script) on your MacBook Air that supports Ollama can now point to the server using the URL `http://<YOUR_MAC_MINI_IP>:11434`.
+
+### Step 3: Security & Remote Access
+*   **Local Network Only:** The above setup exposes the service to your home/office Wi-Fi. If you want to access it from *outside* your home network (e.g., while traveling), **do not** open port 11434 on your router directly, as Ollama lacks built-in authentication.
+*   **Secure Remote Access:** Use a VPN or secure tunnel like **Tailscale**. Tailscale creates a private, encrypted mesh network that allows you to access your Mac mini from your MacBook Air securely from anywhere in the world as if you were on the same local network, without exposing your server to the public internet.

@@ -1,0 +1,14 @@
+warning: in the working copy of 'Artifacts/m3_vs_m4_vs_m5_comparison.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Artifacts/m5_air_local_ai_capabilities.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Artifacts/m5_air_neural_accelerators_explained.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Artifacts/macbook_decision_analysis.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'logs/transcript.jsonl', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'logs/transcript_full.jsonl', LF will be replaced by CRLF the next time Git touches it
+[main 5b4feaa] Archive full session and artifacts (Oct 2026)
+ 4 files changed, 615 insertions(+), 19 deletions(-)
+ create mode 100644 Artifacts/macbook_decision_analysis.md
+ create mode 100644 logs/transcript.jsonl
+ create mode 100644 logs/transcript_full.jsonl
+To https://github.com/pp0016/MacBook-
+   02eee6c..5b4feaa  main -> main

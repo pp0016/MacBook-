@@ -1,0 +1,20 @@
+The search for "Apple M4 chip Thunderbolt version AV1 decode encode media engine MacBook Air" returned the following summary:
+The Apple M4 chip features a dedicated Media Engine that provides hardware-accelerated support for specific video codecs. Below are the details regarding your query:
+
+### **Media Engine Capabilities**
+*   **AV1 Decoding:** The M4 chip includes **hardware-accelerated AV1 decoding**. This allows for efficient, low-power playback of AV1-encoded content, which is increasingly common on streaming platforms like YouTube and Netflix.
+*   **AV1 Encoding:** The M4 chip **does not** support hardware-accelerated AV1 encoding. Hardware encoding for AV1 is currently not a feature of the M4 series media engine.
+*   **Other Codecs:** The Media Engine provides hardware acceleration for **H.264, HEVC, ProRes, and ProRes RAW** (both encode and decode).
+
+### **MacBook Air & Thunderbolt Connectivity**
+*   **Thunderbolt Version:** The MacBook Air equipped with the M4 chip features **Thunderbolt 4** ports. 
+    *   These ports support data transfer speeds up to 40Gb/s, DisplayPort, and charging.
+*   **Comparison with Pro Models:** While the M4 MacBook Air utilizes Thunderbolt 4, higher-end models like the MacBook Pro with M4 Pro or M4 Max chips support the faster **Thunderbolt 5** standard (up to 120Gb/s).
+
+### **Summary Table**
+| Feature | M4 Chip (MacBook Air) |
+| :--- | :--- |
+| **AV1 Decode** | Yes (Hardware-accelerated) |
+| **AV1 Encode** | No |
+| **Media Engine** | H.264, HEVC, ProRes, ProRes RAW, AV1 Decode |
+| **Thunderbolt** | Thunderbolt 4 (up to 40Gb/s) |

@@ -1,0 +1,38 @@
+The search for "MLX models that fit 16GB RAM Apple Silicon 2026 Llama Mistral Phi Gemma quantized" returned the following summary:
+For a 16GB RAM Apple Silicon Mac, you have a "practical" memory budget of roughly **11–11.5 GB** for model weights after accounting for macOS, background applications, and context window requirements.
+
+In the MLX ecosystem, which is highly optimized for Apple’s unified memory, the following categories of quantized models are best suited for your hardware.
+
+### Recommended Model Sizes (Quantized)
+To maintain system stability and performance, aim for models that leave room for your context (KV cache) and other tasks.
+
+*   **The "Comfortable" Tier (4B–9B Parameters):**
+    *   **Best For:** General chat, writing, and coding assistance.
+    *   **Models:** **Qwen 3.5 9B**, **Llama 3.1 8B**, and **Gemma 3 4B/9B**.
+    *   **Performance:** These run very fast and leave plenty of RAM for your OS and multitasking. At 4-bit quantization, these typically occupy 5–7 GB of memory.
+*   **The "Ambitious" Tier (12B–14B Parameters):**
+    *   **Best For:** Higher-quality reasoning and complex tasks where you are willing to trade some multitasking headroom for model capability.
+    *   **Models:** **Gemma 3 12B**, **Qwen 3.5 9B/14B**.
+    *   **Performance:** These are practical but will consume a significant portion of your usable 11GB+ budget. They are excellent for focused work sessions where you don't have many other heavy apps open.
+*   **Smaller "Efficiency" Models (< 4B Parameters):**
+    *   **Best For:** Low-latency tasks, simple agents, or when you need maximum multitasking headroom.
+    *   **Models:** **Phi-4 Mini**, **Llama 3.2 3B**.
+    *   **Performance:** Extremely fast; these are highly recommended for agentic workflows or when you want to run multiple processes simultaneously.
+
+### Optimization & Framework Tips
+*   **Use the `mlx-community` Hub:** The [Hugging Face `mlx-community` organization](https://huggingface.co/mlx-community) is the primary source for pre-quantized models. When browsing, look for models with `-4bit` or `-8bit` suffixes.
+*   **Quantization Strategy:** For 16GB Macs, **4-bit quantization** is the industry standard for balancing quality and memory usage. It provides the best performance-to-size ratio. If you find a model feels "sluggish," it is often because it is pushing against your memory limit and causing memory swapping.
+*   **Runtime Choice:**
+    *   **`mlx-lm`:** Use this for the best performance and direct integration with Python scripts or for fine-tuning via `mlx_lm.lora`.
+    *   **Ollama (with MLX backend):** As of 2026, Ollama on macOS leverages the MLX framework natively. It is the easiest option for a "one-click" experience if you prefer a CLI/API-based workflow without managing Python environments.
+    *   **LM Studio:** An excellent GUI alternative that supports MLX and makes it easy to browse, download, and test models to see which ones fit your specific memory usage.
+
+### Quick Summary for 16GB Users
+| Model Size | Practical Fit | Use Case |
+| :--- | :--- | :--- |
+| **3B–4B** | Excellent | Fast, lightweight, maximum multitasking. |
+| **7B–9B** | **Sweet Spot** | Balanced performance for coding and chat. |
+| **12B–14B** | Ambitious | High quality, requires closing background apps. |
+| **14B+** | Not Recommended | Likely to cause swapping and performance drops. |
+
+**Important Note:** If you are planning to perform **LoRA fine-tuning**, remember that training requires significantly more memory than inference. For fine-tuning, stick to models in the **1.5B to 3B parameter range** to stay within a 16GB limit comfortably.

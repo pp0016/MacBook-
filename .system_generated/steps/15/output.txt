@@ -1,0 +1,20 @@
+The search for "Apple M4 chip base specifications transistor count memory bandwidth TOPS process node cores" returned the following summary:
+The base Apple M4 chip features the following specifications:
+
+*   **Transistor Count:** 28 billion[1][2][3]
+*   **Process Node:** TSMC second-generation 3-nanometer (N3E)[4][3][5]
+*   **Cores:**
+    *   **CPU:** Up to 10 cores (typically configured with 4 performance cores and 6 efficiency cores)[6][7][2]
+    *   **GPU:** 8, 9, or 10 cores[1][7]
+    *   **Neural Engine:** 16-core[1][6][7]
+*   **Memory Bandwidth:** 120 GB/s[1][7][3]
+*   **TOPS (Neural Engine):** Up to 38 trillion operations per second[1][4][2]
+
+Sources:
+[1] [wikipedia.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkYkkjrluwYblcT1cRL7Tikb6tg0qyPqO1KrUnS-T962xzDDgzrriUCmzmAfXhNoZGEJSljAVSAkkbNkMwEiJdVqfpN880F72B4T8YFP1pIlORW58CkDHZapy0kA==)
+[2] [abcom.in](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpT0VSNCQ5SGtcQWlWFoONyqHQGjqGemHHeTrxwThhkq6WCYqnyohMaLMESWSFTfI7Ny92x71ULgTgul12wWnwuIkSwmneHShY6GvU1OYUUmIQRJlto0hNKRyU9NnHmJeUFmYp4gnpnJ8yq6y93UJpMmsJOjTcQ8s=)
+[3] [tomshardware.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7E_fg_ESQGOqHzGXBh72g3x0Pp9aaAvdnQj0RIa2NsK4RXcp6zWRcHRql9aj03aIbAY9271wHwZPFOF7bDCe3ZvYXHHHXqk2nTP7fYXrIlTpjSIk7fZbNBvgdyDlSEtrqkSyxnd5IHyC3pZLirCQY3sEFaYcsMZm_xGL3bHBeLl9OI_7yk_cjRRX8qUD3NNvQW8PfjnOf4xQjizRQTynF21EpP5lz3E4r4z8TSkK5Jg-1v7jdu9FOTg==)
+[4] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhL7QXwWyeKwRXvOqFDKnBGta92sxFMWyQY96WwWDh8P8stZfZDq6gFuhZ8hwoLZqT_KfJaki-acPtl-Dw1ASZ3xGx6vKN1d55vnVNv6t34xQsVOK3RTHlgo5VMqoHBgN9ZKCwegMlTRqOS07eeuyaGTaaL9c0DkDC)
+[5] [wondershare.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDnoL55AMe4MyNrkEML9QmsaEqF_NAdBrO4N3DF4sqUToGRmMR8tL5x0iyN_3NDMqU9FUZ-fWNA-qEomM2wjK-ZWdQWGoLX5IleW-kWKkMHCkh_AfIfKRrkqwWlZEfAraeVpoKi387zcm5SN-mRZHAQtkU)
+[6] [notebookcheck.net](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGV7loXqA0NAsZh0zRY0bQWY_uPQ2BWuRIkeyQNSGBUb1Sc5vsvQOvPVnRaiHwKsFdSFTup4LY-t12mr1Llfz2Efcwkt7V6vFuy-pTmGHzfajuPKfe7blcLMgPnCFMrtxJfdQkO4yMUAaSheKFbxho8O1yxwVZMaZOXZe01s1MV2xhCLc7LwhLew4A-G7TJEuU2Lg==)
+[7] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFV99HMsYxRu9eKHeRxNCCvnbH7sqksivdFzmvhAV0bpK5scxNyJhxwzFIVBwXOMZJkhRKLP9HIMx9_A3qh7Hi-1vZp5uF3qzWXyGFvvWCOVzo3h8zJULF3xJ5bdQ==)

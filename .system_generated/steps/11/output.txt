@@ -1,0 +1,21 @@
+The search for "Apple M3 vs M4 vs M5 base chip benchmark comparison Geekbench 2025 2026" returned the following summary:
+The following table summarizes the typical **Geekbench 6** performance benchmarks for the base models of the Apple M3, M4, and M5 chips.
+
+### **Geekbench 6 Performance Comparison (Base Chips)**
+
+| Chip | Single-Core Score (Approx.) | Multi-Core Score (Approx.) |
+| :--- | :--- | :--- |
+| **M3** | ~3,100 – 3,200 | ~12,000 – 12,100 |
+| **M4** | ~3,800 – 3,900 | ~14,500 – 14,700 |
+| **M5** | ~4,200 – 4,300 | ~17,000 – 17,800 |
+
+*Note: Benchmark scores can vary slightly based on the specific device (e.g., MacBook Air vs. MacBook Pro) due to thermal management and cooling differences.*
+
+### **Key Generation-over-Generation Context**
+*   **Performance Progression:** Each generation has maintained a consistent trajectory of improvement. The **M5 chip** notably set a new single-core record in the Geekbench 6 database (reaching ~4,263 in peak testing conditions), representing a significant lead over the M4.
+*   **Multi-Core Gains:** The shift from M4 to M5 typically yields a **15% to 20% increase** in multi-core performance, driven by architectural optimizations and a higher efficiency-core cache (now 6MB).
+*   **Focus Areas:**
+    *   **M3:** Focused on the transition to the 3nm process and the introduction of hardware-accelerated ray tracing and Dynamic Caching.
+    *   **M4:** Prioritized CPU throughput and a significantly faster Neural Engine.
+    *   **M5:** Further extended CPU leads while introducing a redesigned GPU architecture. A major highlight of the M5 is the integration of a **dedicated Neural Accelerator in every GPU core**, which has resulted in massive gains for AI and machine learning tasks compared to previous generations.
+*   **2026 Landscape:** As of late 2026, the M5 series (including Pro, Max, and Ultra variants) is firmly established in the MacBook Pro, Mac mini, and Mac Studio lineups. Apple has also recently introduced the **M6 chip** in specific desktop models, representing the next step in their silicon roadmap using 2nm process technology.

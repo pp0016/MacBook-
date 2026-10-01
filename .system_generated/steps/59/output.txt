@@ -1,0 +1,16 @@
+The search for "MacBook Air M5 GPU core count 8 or 10 which configuration base model specs" returned the following summary:
+For the MacBook Air with the **M5 chip**, the base model comes configured with a **10-core CPU and an 8-core GPU**[1][2][3].
+
+### Base Model Specifications
+*   **Chip:** Apple M5 (10-core CPU, 8-core GPU)[1][2][3]
+*   **Memory:** 16GB Unified Memory (standard)[4][3]
+*   **Storage:** 512GB SSD (standard)[4][3]
+*   **Display:** 13.6-inch Liquid Retina display[2][3]
+
+While the base configuration features the 8-core GPU, the M5 chip is also available in higher-tier configurations with a 10-core GPU[3].
+
+Sources:
+[1] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQBMqO6PRqx5gQLL7VL8qwGb_LONLG2bC7ojNCtNAR88yrFPDGHsvfcWCpue9Kr24RVch6EI8X-LXDLAvv1ItfCW1H52uL--5RI7h9g4lDIViO1HB1ZFFP3jbVuAxZ75z--YgbE7qyX7CP1Xk467-LP1I4teoEO_C_unr8j58S5TqFeAOpLCmMBIl-pkIZ0_C7JcLE4i8G5TfDGrTCpk349QTu7b8vk2TKOC7Rz9v0SarN)
+[2] [vijaysales.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgBzZRUrqs2XQLTeKUvxdUOGPZ7FpFz7wG2BXtVcEQhcxg6rz2SJvB5OmjtmOrFL5kdJKIrgj-Tm6WIawThVhtMlBgcnMYby8HlAcKl_fr-rf7ySUgUfUjzhcjlL9SkevNQR4feWRuL0ABkuG64iA1VLlNGPwwT7g_6nfQfwmGAtcYThuDuv5QWbN3MqK--Ud5nDf4fsa4FTeVKlqemuy9RjFJUYm_rWMG5JxhBGuvkBmvPFlnp2zxSD7FosUxoxxHsBWGkntfDxGg92bzj74ElODcuW14)
+[3] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCxZ4uBWuPbrPU5LI3ywXl00jj6Q89s7BaJSzC06czykjK5a1hH2ans4_DRHI0JHOS7HBuFEH-4ItTh0CYJxs6lCxc8WDREZx15DcOVbsvgIJDmyWCVOzEScihZQ==)
+[4] [imagineonline.store](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfRANM-xZ-wTLkcRnsjlmhNubqbnpCa8BxhQN3loAkCA6v8ui0dSUfaoC70AIahadRwFb3K-Xcak98lJxrI2PLmYwaz2lt5v1z6RpZ57wQCcJrHWzzvp5Jo9sSo1JOzUTGVPwCQPsbMMc_JKp4hz-qMuP_HY-tCkEd4LgT)

@@ -1,0 +1,22 @@
+The search for "Apple M5 MacBook Air memory bandwidth 153GB/s LPDDR5X specifications" returned the following summary:
+The **Apple M5 chip** used in the MacBook Air features a unified memory bandwidth of **153GB/s**[1][2][3]. 
+
+Key specifications regarding the M5 memory and architecture in the MacBook Air include:
+
+*   **Memory Architecture:** Like other Apple Silicon chips, the M5 utilizes a **unified memory** architecture where the CPU, GPU, and Neural Engine share the same memory pool[4][5].
+*   **Memory Type:** It utilizes **LPDDR5X** memory[4].
+*   **Memory Configurations:** The MacBook Air with M5 comes with 16GB of unified memory as the standard base configuration, with options to configure it to 24GB or 32GB[1][3][6].
+*   **Performance Context:** The 153GB/s bandwidth represents a significant increase (approximately 30%) over the previous generation, designed to support improved multitasking, larger creative projects, and accelerated AI and machine learning workloads[7][8]. 
+
+The M5 chip itself is built on TSMC’s **3nm (N3P)** process and includes a 16-core Neural Engine and dedicated neural accelerators within the GPU cores to enhance on-device AI performance[3][9][4][5].
+
+Sources:
+[1] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgrwvWtOKXdtQiZJUHATvEJ83qNJhJe0GWhCWyHGrXZdzRPcRv8wZ4ybmE0RjDDbmCFVl_Y6e_P5SytPT2fMf5Rm3rLDo8anVhUDasPf9NeFujqqw1f7JmCNiUxQ==)
+[2] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmst6eINhhJc0BtkNb4NLwqPEhPRa_B-hvdPg03XSOa-cY-V7T6RmYMvKNGv25gbS8Qm5kNJs42tjxeHDbiep0VdSUWh76WyZLDfqXsoKbwD7n-QShUiTqoTUtg3HVrInq)
+[3] [wccftech.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxWMhcxYWpbym4bj2g08b_R_s0DQRmbBSXTPPlD4A5exytKto0iGL1cbSZk9tDLTMZbr7IdPZ_XdDkLyrvPKZukcscjt5A37OxQHlXTcu9keqsDBsC7njQBpd0mewqaYTcK8F4GW7f16KBT8VByq6fqVN-G261xSRmCAB_2hPPgMi1bFMz9YeHJkNAH0mGfA==)
+[4] [wikipedia.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJ_FJmCsE7gXyBJGKFjHXO_ItFNLHOUy9HdDAziwF73-xLtoX5ytQ5ieq6KMJrdbD3Q1P-7AfAXB7WJxHB6h1yUt4i7HZjcA1-sr0bgVV7q8StgwxpuxmCPC8_fw==)
+[5] [evetech.co.za](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8TiJ8kw5htQb0Aq9GaR_Z1VVus1sHgtdF9593bpGubRES-_GoCm31vdf2yMqewtN2RpAKYBFKTKV6_DonctXWN28hvEFoMwiQJz0dfZCh-kxnjmv4rr068OPaKb3zhFcII91-RkLBUwWohmczqtkxfNauoAxlpjY=)
+[6] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgrwvWtOKXdtQiZJUHATvEJ83qNJhJe0GWhCWyHGrXZdzRPcRv8wZ4ybmE0RjDDbmCFVl_Y6e_P5SytPT2fMf5Rm3rLDo8anVhUDasPf9NeFujqqw1f7JmCNiUxQ==)
+[7] [croma.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaSgDggfA1T9mAoMjynleXFZHedPnGyTM0m5nZ5ZZ6cRdjNA8Ruov0IOctE1Hw8Y8yIi6xVPJoEZjELFoh2trbyCo2xJ9oHfH75DJAMsC7w5tQXq9sNRGcieZl3b6MvzhVVyrF15WRNVvfMNiZp3tQW9HbWlfvTg0FrMkPzm8-EQpFnMfcJBR9NA==)
+[8] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoR-1ByA5041ohgD9Pr0Fb0e1CkdbR83z2D_y-cj27YYdyT7g08aVlAcsjIfVKotGpbr_uyriJy4Z1bCYUCceNEaUQRIC07vp761iDB5tCSQXfVXdjRFcNH8aFJiT92sF7)
+[9] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDGyUDrgaLyfVK4YXGQjeGlRXTodpUfwZaw_gKIvSRje7BDjMHvL0TWqTI4XeCO-UR9e_Zlaz1MAXlZqJmp7bLFP6-t3LvZo1nQ4bVeadDGwN5Up6j-vtkNPltSC0BuUNZ4sey4nzzxe1QcnK7gx7RrGzdgKwe_9wdgsbd6jM4OePqVKo48QkCB771gVuSocnFMfUbBKGnbfVpEoE7x_cOl7cWFlC6DRZD)

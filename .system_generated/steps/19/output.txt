@@ -1,0 +1,14 @@
+The search for "M3 MacBook Air battery life hours M4 MacBook Air battery life hours official Apple specs" returned the following summary:
+Both the M3 and M4 MacBook Air models share the same official battery life ratings from Apple. Despite slight differences in internal battery capacity, Apple specifies identical performance for both generations.
+
+### Official Apple Battery Life Specs
+
+| Feature | M3 MacBook Air (13-inch/15-inch) | M4 MacBook Air (13-inch/15-inch) |
+| :--- | :--- | :--- |
+| **Apple TV App Movie Playback** | Up to 18 hours | Up to 18 hours |
+| **Wireless Web Browsing** | Up to 15 hours | Up to 15 hours |
+
+### Key Differences & Details
+*   **Battery Capacity:** The M4 MacBook Air features a slightly larger built-in battery (**53.8 watt-hour**) compared to the M3 MacBook Air (**52.6 watt-hour**). Despite this small increase in capacity, the official duration estimates remain the same.
+*   **Real-World Usage:** While Apple’s official figures are based on specific testing conditions, actual battery life will vary based on your specific usage patterns, screen brightness, background processes, and system settings.
+*   **Performance:** Both models are designed for all-day battery life, but heavy workloads (such as video editing, high-resolution rendering, or running numerous demanding applications) can significantly reduce the hours of runtime you experience compared to light web browsing or video streaming.

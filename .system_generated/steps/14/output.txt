@@ -1,0 +1,38 @@
+The search for "Apple M3 chip specifications transistor count memory bandwidth neural engine TOPS process node" returned the following summary:
+The Apple M3 chip series is built on **TSMC’s 3nm (N3B) process node**[1][2][3]. Below are the key technical specifications for the M3 family:
+
+### **Transistor Count**
+The transistor count varies across the M3 series based on the specific chip configuration[1]:
+*   **M3:** 25 billion transistors[4][5][3]
+*   **M3 Pro:** 37 billion transistors[6][3]
+*   **M3 Max:** 92 billion transistors[4][7][3]
+*   **M3 Ultra:** 184 billion transistors[8][9]
+
+### **Neural Engine (NPU)**
+The entire M3 family features a 16-core Neural Engine[5][3]. Apple has rated the peak performance of this Neural Engine at **18 TOPS** (trillions of operations per second)[1][2][3]. 
+
+### **Memory Bandwidth**
+Memory bandwidth varies depending on the specific model within the M3 family:
+*   **M3:** Up to **100 GB/s**[10][2]
+*   **M3 Pro:** Up to **150 GB/s**[11]
+*   **M3 Max:** Up to **300 GB/s** (base configurations may vary)[12][13][14]
+
+***
+
+*Note: The M3 Ultra, released in March 2025, utilizes Apple's UltraFusion architecture to combine two M3 Max dies, effectively doubling the core counts and capabilities of the M3 Max[8][9].*
+
+Sources:
+[1] [wikipedia.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAWQPOGbrqY0Y8fc41sSD-QawuLt8Isn0Uhg-dk4dj2NEUgNo-POTxhoCRg0GwN-PyJq9l2-ar1_qBWxptOgQnraZOCMbbslFhFyoWbTyO9m2wb5JC9a89Wj6dyg==)
+[2] [notebookcheck.net](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBJtKGVhWhV2tV72YHiFdktDAntPAFT3Eww1TCsaBIeuBRYiW12RuhR4oC-5Pf9T_vHIcHMEky_0zhym-6T9hkSq1KR0fbjPOjB8OgSFWcsoEG_R7GPFlFxj03KUA1M7XI3T4qdsODC83Z4pjbSwL7w1n9FDVPNEERNpFhmobZCemEcc7GlnQ2fA==)
+[3] [pocketnow.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExfa9F3MJaAPBX41rp64ZwadohM3QbTr4jtjeeN9vC7K98J3PXiBC8V-ESN2uJ_MJ-PCn8TapDlnT1EFJpfeydhr5PsAOdSKl53dGecxlnHp2D9mcydX5um_99C_ttXQXKn4o=)
+[4] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBv-jvQzcn7htGUVjlArRrhRzv0mXf7-pfD1MpGsWbgvQJoK2GgPGuOrUp08Zhq2k3-jzlGos3eTQy5xYLTMxNuN_7IgZcUy4VH__0gdtXo1SiMDvAKEZAXd7pNKBiWMeK6Sn9Uxq4evayS_ZzM1qrCnvzmDEVqI380DTlk2Uc9yx75PcQ4sNt-GkCkSw27Fjf90lWAmGvrUAr0YCRTt_5WUQJrmeA7jh44oekKTIhHOXB4A==)
+[5] [fandom.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQN2G-vl0ozeCG-_fUVyC-VBPr-sxdp3NkJIaRHRCQ5UtFHKuKEtELT3FjMENDpfrkInXxbN_wl0UA2hL6S8iPLBnY-digQBLvxVFVJpZEh3d0rL8adJBMYLttsg==)
+[6] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFO1mrlkVQoMNcECi0E28PFZHWC5D2Y1Q5HIhw2JYihN895aidIqzsqOYd3pLrweR3omzCGADKHaQ29e6nAgshkQxsWSrryOQRLF4zUxTWdljkfL85f_nKWshC8m6RsH3rJLh_YEImJ1mYfjkBcooxBS6DhNZseMlFpt_9MvC59lJPeglI2iunnPzl3Kk8_v5t6rD4OlA4=)
+[7] [indianexpress.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSF7dhV2ssXlk7PdNSjzRcJFUy8Pq9OSDNhlHL984iU2dTSfbfKTYJ6ZMTz4mLAQfhhQqROb_dM9t6sfXjctl-XGXgHDGcmHClsV7dw3T-2RQf6cd46qclnb92ePoefVkTbiSDv9c5Jts2hUDKtAyeYAe4VKDu6bquzgRkRW3CCUZt555ZrJ9gHa9J52P4LDZ098CcCpWxKoMMQyCZRA_a6judzaDF4lsKv2Wv9FQ2UCmuj3pWjXuA1rP4oIxoIrcQU4GL)
+[8] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKRAuZm0o_KiOqqk25e0Oh4Ucr15g4yVDZDo74YvBwvZ44PGK73AwNk7nZ9ViPoYN4GiqWVKR4dFSmtXzrvOLCttoFnoxVTwM2RMetMSWwXVElvnRIRdj7Zbdn6jqjFzfL1c4PASg3M18ykB92u2T9p7ZOT-xSafNitHVKkgg6CG4EPz-jWX-5F2wLctxMZd95f0VrX3wS5kKG)
+[9] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuUlZYzQXvSh702W0JXFoCIZqaoY00pIG2vcYmBk7ZBDRPM4jrXmQ3jlWle5ZNyDuB4TX-PkjS_1VwwWkIG28reG22KkENo8qXcd_Mx1XWYxH05lyr6tR5DwG7E4u9fpSPZuSM7Z5M6vMXBeHzivTattBh5nzxxJ6MxdE_gpeOo7BNW2ZdM4zDCpakXwdY0hfKcLuizZi6xuuYccZI)
+[10] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxHrEk__glvlyGAivs9EhwF5Qn6kLDlCt-boG-fII92QraATHw1wsmOeuhiKthZyPJzZpTvNQCbpFFGekpA-dHPVceaoVZtJXGP7AGD4DglQ7GU0iMhr4u5mkaTA==)
+[11] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkEeslV-faLUXgsdD40-FszzWil48R_ACXp4FLutI2aqa9pXy1gccW994njVUcjhhSo_2IgYQvEMyMEqgjkMOhDhXZ-MmcJ5TyvM5MotG5_r6cdTZNBEKcY4BUErkHT5UD_dTMKBOSaT7tRGYnUsf4euBXHiUdf3HJVDL3vX8VWkpJSycMxMolYznPPUeamn4whts=)
+[12] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGy6JhETh2gWfEb3heQiYSb80e78XSEFScmNzQ0on_NaY5N6g0YlAeqfS8BtXPRVKYJuMpy89d1oBlUHtNMJC-sD5F9tuA8J-VYWw5GZ5APMWEuXtuGigLDjYEA-Q==)
+[13] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrWtdd64DZOdARbrYZlPJT9RMMZsVcyRvDKgEB9ZCTGx5g8ye3NRpgz9XgARI8Uowb8nwh7GFlEmwGxcUqVyQ6zypxLu4tUZfJqSp40gaymQEoZxl-5vZ6TZ69priOZ3txHDSaxap9Rl50JaeWm2K40W3xKTD3n_dmc1rI3Nl7i-0dK8ARNrIvBGGdKa6l95ExG52VdXmC1Nx9c04=)
+[14] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGy6JhETh2gWfEb3heQiYSb80e78XSEFScmNzQ0on_NaY5N6g0YlAeqfS8BtXPRVKYJuMpy89d1oBlUHtNMJC-sD5F9tuA8J-VYWw5GZ5APMWEuXtuGigLDjYEA-Q==)

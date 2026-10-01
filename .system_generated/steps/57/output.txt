@@ -1,0 +1,27 @@
+The search for "site:reddit.com MacBook Air M5 neural engine AI performance throttle local LLM MLX" returned the following summary:
+The MacBook Air M5, released in March 2026, features the M5 chip, which offers significant improvements in AI performance over its predecessors[1][2][3]. Based on community discussions and benchmarking on platforms like Reddit, here is how it performs with local LLMs and MLX:
+
+### **Performance and AI Capabilities**
+*   **Neural Engine & GPU Accelerators:** The M5 chip introduces "Neural Accelerators" in every GPU core, which Apple claims deliver over 4× the peak GPU compute for AI compared to the M4[2][4]. While these accelerators provide significant compute gains for specific tasks, real-world LLM inference speed is often constrained by **memory bandwidth** rather than pure compute power[5][4].
+*   **Prompt Processing:** Users have noted that the M5's biggest advantage is in prompt processing (PP) speeds, which are notably faster than those of the M4[6][5].
+*   **MLX Optimization:** The MLX framework is highly effective for running local LLMs on the M5, though performance depends heavily on the specific model quantization and memory allocation[7][6].
+
+### **Thermal Throttling Concerns**
+*   **Fanless Design:** The MacBook Air remains a fanless device[8]. When running demanding local LLMs (especially for extended periods), the machine can generate significant heat[7][9].
+*   **Throttling:** Because it lacks active cooling, the MacBook Air M5 will experience thermal throttling under heavy, sustained AI workloads[7]. Users report that while it can handle models like the Gemma 4 26B (optimized for MLX) quite well for "daily-drivable" tasks, intensive or prolonged processing will cause it to heat up, eventually limiting sustained performance[7][9].
+
+### **Key Considerations for Local LLMs**
+*   **RAM is Critical:** Regardless of the chip generation, unified memory is the primary bottleneck for local LLMs[7][5]. Even with the M5's efficiency, 16GB of RAM is considered the bare minimum, while 24GB or 32GB is recommended for running larger, more capable models without needing to close other applications[7][10][3].
+*   **Usage Context:** If your goal is heavy, sustained local LLM development or running massive models (e.g., 100B+ parameters), the MacBook Air may not be the ideal choice due to its thermal limitations[7][9]. Pro-series MacBooks (M5 Pro/Max) are generally preferred for these workloads due to their superior active cooling and significantly higher memory bandwidth[7][2].
+
+Sources:
+[1] [gadgets360.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWH4s92Zu_h56BjxWIMdyFebqcXSfkvVtNZcQsFmrTqQfan3xFRYs2p71F9xkimIpLknkATttAiKa1ny1ooozwnC3fJljXflW6uJDpe-LJFOzqaTNWeGpCMLIxjELiaKTWaTJG7nWGk07S3g4ASd808YP5lutgjQfnUSdiZRqID2fC542GcNZn)
+[2] [wikipedia.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEu9WetaqVTV-zaCTQNij3YEktFAsrI3H8GTdENqyaECt9LfwRvDeKk2fHXt3mBQuUIqTIG1dxyc5rubIxBQyYGXBgh1DIJs9u_dfwfziIFx2OAiUDKu-t_oKLRKA==)
+[3] [evetech.co.za](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESw3-JLZOl0jU6YO5qBCb9ub8ZI4MTBzQ0itEijgOTKrb9tTkQAE2yF3ZuQrspjdRvFq1n1nwNnPf-Eo6nk4i14TzzpxOR_SfTIQJZVglipR-IdoBDutRdMBw5Lvrrm6q9IFjAbZpIPxiFYB-BJm_7ZtHVamobR9bmdKA1nw==)
+[4] [macsales.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVckQ9O7DTx1l85x_rr_-cc1UHweexfQDUtUzRbRh5bW70IIhB5jbU6CERJMa7ck2lYoDapQNAPEAqrwrc0Lk1Cx8VCQIEVE-pLxhnl2_od4SQ4ujvBvYSp7z9y3ez_ebZ8riYbuhrX9y37KpRIvAYtuQmp7vtdQpGNTq8_niGflph_luCwGUFgee7re-urwA6Z0EJ78mubC_Wn-3FUAfSqiw=)
+[5] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIToMRcHGaxkVOx6cfRYgX2SaAKN850_hTjLQNRN05JlwEcypFp4kltwCZgUUxKnJdoO58dZSOfKQuaT8U6UIGavleTZgA6FZK0SE7UZi8ZJjAWqdrYHEpNSWD3iba7vhvbdeF5P2PWGh5EFl9o1244C7oBA87mOIRmFbV28qOZOFMGySlp2cWNUPkkGNaBWh5ehUbFb3iKfgZlw==)
+[6] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaPgKEKCMzAnvaxv-gtZf-OOLj9n_UyAvMY1cG8tJSvr8mPoM_FNgywkkYGFbCgR2150YnyXF1DoDj6zT6vJ82oGvke1zZNAidMYOUh3taSYM5Lk6JvbPiyz-IkSG1UNFPBfzd5MTRzvcEMpzfmARnpcxMXzFHVgnTiYI-xkPHMjSly1WYtxgMIhNFixxh3cRyfwpdP3jvY89JhUM=)
+[7] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFshFRD4J4EB2IgJV4PiQKcJoIWjnEcrtO9sJe3BPRqIAZiVkbQEWKcCGMHwMCM5ZYslR2zq7K4Ev9z33b9Bg7lJxlDA3JohbrleII1XgaWHp1UTMIni5O8hWBxQRt5ia2NOd-yHRgI3_hK9_vQ1UKfK911krgdQLPVpS2LanDvMxm27LjtZKXDMOoB740mzB9iyzq1D3xrpVk=)
+[8] [imagineonline.store](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeyMSwI-0hrhoGdvNvpV_HiZ-5ePZxYzfmmiBHwYunIcotM-c3JiB9efO-BeM4ng4wKJUhl1plVw-wr5BxXxqyPrOOq83I2OgNxtTNMQ74Cji5oKAC-oy5Rb550EK2V3Jvmxxpsg12lTXSCTCMXZbFoYxtJ0uyAwj7Sx5G)
+[9] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWxFgH5bTk230AVg_419x0QTLtLmUhR2Bx_fmkLTFHlUCsMblND0hbYfWHql2QjjK-D0vNPQaZS11HqVdU_-chJpC_bwjlX8Spf4HNW4FcSCdpBWVdRNHhL35LavvJjuD5SN4Va56rLlXiwKOfsOUXi_dCO_xa8nBk-UDHz39WozAvsh179GErF0T_qQ25z3pEo5d6hw==)
+[10] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGY2cT62iTBKHv2bwA4ZXNVr5F0qJgAIlCrkxx8vcg7TICH_0zGUYjDPQSfnnIzCbcJzqs11kgvsHtTOw042fjvNJ1SzsSTo7W0Wn5QK7MdJEcgATDSriU9aHzw4pvjyiTRJRCvlaN9iKz3Da_0ZnN9S2HaUIFivsYvldVY3EZHosWBdlxJ7K1kc0PCWTECBJWl5HjiqOvdCOOhXu0=)

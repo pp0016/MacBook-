@@ -1,0 +1,22 @@
+The search for "site:reddit.com Mac mini Ollama server MacBook Air client LLM remote access experience" returned the following summary:
+Using a Mac mini as an Ollama server for a MacBook Air client is a popular, high-performance setup for local LLM users. Reddit communities (such as r/LocalLLaMA and r/ollama) frequently highlight that Apple Silicon Macs are excellent for this purpose due to their unified memory architecture.
+
+### Key Considerations & Experience
+*   **Performance:** The Mac mini (especially M2/M4 models with high RAM) acts as an efficient, silent, and low-power AI server. Users often pair it with a MacBook Air as a "client" to keep the laptop lightweight while offloading intensive inference tasks to the more powerful mini.
+*   **Memory is King:** Users strongly recommend prioritizing RAM (ideally 24GB or 32GB+) over other specs, as LLM capability is primarily limited by the amount of unified memory available to the GPU.
+*   **Headless Operation:** While you can use the Mac mini as a desktop, many users run it "headless" (without a dedicated monitor) and manage it via SSH or remote desktop tools.
+
+### How to Set Up Remote Access
+By default, Ollama only listens on `localhost` (`127.0.0.1`). To access it from your MacBook Air on the same local network, you must configure it to listen on all interfaces.
+
+1.  **Configure Environment Variables:** Since GUI apps on macOS do not inherit shell variables (like those in `.zshrc`), you must use a **LaunchAgent** to set the `OLLAMA_HOST` variable.
+    *   Create a `.plist` file in `~/Library/LaunchAgents/` (e.g., `com.ollama.server.plist`).
+    *   Set the `OLLAMA_HOST` environment variable to `http://0.0.0.0:11434`.
+    *   This forces Ollama to bind to your network IP, making it reachable by other devices on your LAN.
+2.  **Connecting the Client:** On your MacBook Air, you can then point your AI tools (like **Enchanted UI**, **SillyTavern**, or various IDE plugins like VS Code/Cursor) to `http://<Mac-mini-IP-address>:11434`.
+3.  **Security:** Reddit users heavily advise **against** port-forwarding your Ollama instance to the public internet. If you need remote access away from home, use secure, private tunnel solutions like **Tailscale** or **Cloudflare Tunnels** rather than exposing the port on your router.
+
+### Recommended Workflow
+*   **Server Management:** Users suggest using `launchd` or `LaunchAgents` to ensure Ollama starts automatically on boot, allowing the Mac mini to act as an "always-on" server.
+*   **Client Tools:** For the MacBook Air side, native apps like **Enchanted** or web-based UIs like **Open WebUI** (often run via Docker/Colima) are commonly cited as the best ways to interact with the remote server.
+*   **Avoid Common Pitfalls:** Don't start by trying to run massive, unoptimized models. Begin with medium-sized coding models (like Qwen or DeepSeek) to test the latency over your network before scaling up to larger models.

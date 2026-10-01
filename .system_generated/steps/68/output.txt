@@ -1,0 +1,25 @@
+The search for "site:apple.com/in macbook-air M5 15 inch specifications price" returned the following summary:
+The 15-inch MacBook Air with the M5 chip is a current model available in India. Below are the key specifications and pricing details.
+
+### **Specifications (15-inch MacBook Air, M5 Chip)**
+*   **Chip:** Apple M5 chip
+    *   10-core CPU (4 performance cores and 6 efficiency cores)
+    *   10-core GPU with hardware-accelerated ray tracing
+    *   16-core Neural Engine
+    *   153GB/s memory bandwidth
+*   **Display:** 15.3-inch (diagonal) Liquid Retina display with LED-backlit IPS technology; 2880x1864 native resolution at 224 pixels per inch, 500 nits brightness, and support for 1 billion colours (P3 wide colour, True Tone).
+*   **Memory:** Starts at 16GB unified memory (configurable to 24GB or 32GB).
+*   **Storage:** Starts at 512GB SSD (configurable to 1TB, 2TB, or 4TB).
+*   **Battery & Power:** Up to 18 hours of video playback; supports charging via MagSafe 3 or Thunderbolt/USB-C ports.
+*   **Ports:** 
+    *   MagSafe 3 charging port
+    *   3.5mm headphone jack
+    *   Two Thunderbolt 4 (USB-C) ports (supports Charging, DisplayPort, Thunderbolt 4, and USB 4)
+*   **Connectivity:** Wi-Fi 7 and Bluetooth 6.
+*   **External Display Support:** Supports up to two external displays (e.g., two 6K displays at 60Hz or one 8K display).
+
+### **Price in India**
+*   **Starting Price:** The 15-inch MacBook Air with M5 starts at **₹1,79,900 (MRP)**.
+*   **Education Pricing:** Educational savings are available for eligible students and staff, which can reduce the starting price to approximately **₹1,67,900**.
+
+*Note: Pricing and availability may vary based on ongoing promotions, retail offers, or specific configuration choices (RAM/Storage upgrades). You can verify the latest offers and purchase directly through the [official Apple India website](https://www.apple.com/in).*

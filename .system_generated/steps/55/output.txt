@@ -1,0 +1,25 @@
+The search for "MacBook Air M5 vs MacBook Pro M5 base chip same performance difference thermal throttling 2026" returned the following summary:
+In 2026, the performance difference between the **MacBook Air (M5)** and the **MacBook Pro (base M5 model)** is primarily defined by thermal management rather than raw chip capability[1][2]. Both machines utilize the same base M5 processor, meaning they offer nearly identical performance for short-to-medium duration tasks[1][2].
+
+### Performance & Thermal Throttling
+*   **Identical Burst Performance:** For everyday tasks like web browsing, document editing, and light creative work, there is no noticeable performance difference[3][2]. Because they share the same CPU and GPU architecture, the base M5 chip performs at the same level in both laptops for tasks that finish in a few minutes[1][2].
+*   **Thermal Throttling (The Key Difference):** The MacBook Air features a **fanless design**, which is completely silent but relies on passive cooling[3][2]. During extended, heavy workloads (e.g., long 4K video exports, heavy code compilation, or sustained 3D rendering), the MacBook Air will undergo thermal throttling to manage heat[1][3][4]. Reviewers have noted that the Air can lose **15–25% of peak performance** during these prolonged tasks[1].
+*   **Active Cooling Advantage:** The base MacBook Pro includes an active cooling system (fans)[3][4]. While even this model may still throttle under extreme or continuous stress, it is significantly better at maintaining its peak clock speeds for longer periods compared to the fanless Air[1][3][2].
+
+### Summary of Differences
+If you are deciding between them, consider how you intend to use the machine:
+
+| Feature | MacBook Air (M5) | MacBook Pro (Base M5) |
+| :--- | :--- | :--- |
+| **Cooling** | Fanless (Silent)[3][2] | Active (Fans)[3][4] |
+| **Sustained Load** | Throttles after ~10–20 mins[1] | Maintains peak performance longer[1][4] |
+| **Display** | Liquid Retina (500 nits)[3][2] | Liquid Retina XDR (ProMotion 120Hz)[3][2] |
+| **Ports** | 2x Thunderbolt[3] | 3x Thunderbolt, HDMI, SDXC[3][2] |
+
+**Verdict:** For most users, the **MacBook Air M5** is the smarter buy because it offers equivalent "snappiness" for 95% of daily use while being lighter and quieter[2]. The **MacBook Pro** is only recommended if your workflow specifically involves long, sustained multi-core tasks where you cannot afford the performance dip, or if you prioritize the ProMotion 120Hz display and extra connectivity ports[1][3][2].
+
+Sources:
+[1] [nexragear.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIiTUfmkjBSD-8UKuL2-NkRVF9X1Lf0z2hR1KZ57-oIL8P280rHa641MeAnwpVJ7SlyBmwM4aeLAX8cPfLvrjTkg9VeiXaVgctOOXqJxZ145uAwwaBuxf3k2AMLUNDsy3ENC-e4R29)
+[2] [adamtalks.tech](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETmJQnAs_h2qno1SiWdVPX7OliXMMevTFlzDIOKcxJz0WyDmn4EY64nB09OCzoOGqxtWlC-74wJ9DSMICq511IwWAWROmngGzMHnXzOCwL1T95dzdy0SfJOxvcKK8xGyi2sbzr6wpS4ILhMFAFpYNHLz4ePp0J8YrcUMulPcMKW0V4-2FrwTmU3umSU9o=)
+[3] [cashify.in](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeW_4c2nPWvLIWokJozj9QWXdCTzBnv-zIf4x_hneNkSODAdDVv3L7DLo2IZVmh8O7vgQ-iluOSwWCyNrSeIVvSLChDHaSasKKSlIFHozo181jVhKVPtDkApjvtAuUcM57TVaWOHz0hIkcRNMycdpc0_yRGq8yhKiA46HND-zGlLh-wgyhBKzQZKPZiNJPpLs=)
+[4] [pcmag.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8Ibe8qtqNGJ9RvGNeYYLdYlDuzqn-_X0w1LTcKIAiki6e4RzlRMUM62hTYs0yrY4_eHIgU7ppdJjQAzE15iFmZtj9UultV8sQ8NXjMT0vKDBHnYp54WPheegO0Qb6IZH_WwfKp6GI_tzvJqriqS-5TX3u-qnYJOjQyCU6dwvxHX3JDsMwHLTUHNyljwTdiu1Rv5S1iPLN6Dny1hL0QK0=)

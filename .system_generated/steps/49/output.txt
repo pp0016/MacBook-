@@ -1,0 +1,33 @@
+The following changes were made by the replace_file_content tool to: C:\Users\renu5\.gemini\antigravity\brain\4822e66b-d57e-4765-a405-82816c5bc417\m3_vs_m4_vs_m5_comparison.md. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -175,15 +175,20 @@
+ 
+ | Claim | Status | Source |
+ |:---|:---|:---|
+-| M3: 25B transistors, N3B, 100 GB/s, 18 TOPS | ✅ Verified | apple.com, wikipedia.org, notebookcheck.net |
+-| M4: 28B transistors, N3E, 120 GB/s, 38 TOPS | ✅ Verified | apple.com, wikipedia.org, tomshardware.com |
+-| M5: ~28B transistors, N3P, 153 GB/s, Super Cores | ✅ Verified | apple.com, wikipedia.org, wccftech.com |
+-| M5 Neural Accelerators in GPU cores | ✅ Verified | apple.com, counterpointresearch.com |
+-| M5 TOPS ~50 (NPU alone) | ⚠️ Reported | Unofficial estimates (quicktech.in, evetech.co.za); Apple hasn't published an exact number |
+-| Geekbench 6 scores | ✅ Verified | Multiple benchmark databases; scores vary ±5% by device |
+-| Battery life identical across generations | ✅ Verified | apple.com official specs |
++| M3: 25B transistors, N3B, 100 GB/s, 18 TOPS | ✅ Verified | apple.com Newsroom, Wikipedia, Notebookcheck |
++| M4: 28B transistors, N3E, 120 GB/s, 38 TOPS | ✅ Verified | apple.com Newsroom, Wikipedia, Tom's Hardware |
++| M5: N3P, 153 GB/s, Super Cores, 4.61 GHz P-core | ✅ Verified | apple.com Newsroom, Wikipedia, Wccftech, Notebookcheck |
++| M5 transistor count | ⚠️ Not disclosed | Apple did not publish this; third-party estimates range 28–40B |
++| M5 Neural Engine TOPS | ⚠️ Not disclosed | Apple shifted to "4x GPU AI compute vs M4" messaging; NPU TOPS never published |
++| M5 Neural Accelerators in GPU cores (FP16/INT8) | ✅ Verified | apple.com Newsroom, Counterpoint Research |
++| Geekbench 6 scores (all three chips) | ✅ Verified | Geekbench Browser database, Notebookcheck, CPU-Monkey |
++| Cinebench 2024 scores (M3, M4, M5) | ✅ Verified | Notebookcheck, CPU-Monkey |
++| GPU Metal scores (47K / 57K / 76K) | ✅ Verified | Geekbench Browser database |
++| Battery life identical across generations | ✅ Verified | apple.com official specs (18h video / 15h web for all three) |
++| M5 package power ~23–27.5W sustained | ⚠️ Reported | Third-party testing (Notebookcheck); Apple does not publish TDP |
+ | 2.5x MLX inference M5 vs M4 | ⚠️ Reported | HN user benchmarks; not independently lab-verified |
+ | Reddit user sentiment | ✅ Verified | Multiple threads with 300-1200+ upvotes across r/macbookair, r/mac, r/apple |
++| Clock speeds (4.05 / 4.41–4.51 / 4.61 GHz) | ✅ Verified | Notebookcheck, Wccftech, Geekerwan |
+ 
+ **Research conducted:** September 30, 2026. 20+ web searches, 2 parallel research sub-agents (technical specs + platform research), pages read and cross-verified against Apple's official specifications.
+ 
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

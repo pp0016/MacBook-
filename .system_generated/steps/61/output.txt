@@ -1,0 +1,13 @@
+The search for "Apple M5 Neural Engine throttle fanless MacBook Air does NPU throttle same as CPU GPU heat" returned the following summary:
+Yes, the Neural Engine (NPU) in a fanless MacBook Air is subject to thermal management policies, similar to the CPU and GPU.
+
+Because the MacBook Air relies on passive cooling, it lacks the active airflow (fans) needed to dissipate heat during sustained, high-intensity workloads. When the System on a Chip (SoC)—which includes the CPU, GPU, and Neural Engine—generates enough heat to reach thermal limits, macOS manages performance to protect the hardware and maintain stability.
+
+### Key points regarding thermal throttling on the MacBook Air:
+
+*   **Shared Thermal Budget:** The Neural Engine, CPU, and GPU all reside on the same chip and contribute to the total heat output. If your workflow heavily utilizes all of these components simultaneously, the system may reach its thermal threshold faster, triggering a reduction in clock speeds (throttling) across the SoC to lower the temperature.
+*   **System-Wide Throttling:** Thermal throttling is a systemic response. When the Mac detects that the internal temperature is exceeding safe operating parameters, it will throttle the performance of whichever components are under load to reduce power draw and heat generation. This means if the NPU is performing intensive, sustained AI inference, it can be throttled just like the CPU or GPU.
+*   **Designed for Efficiency, Not Sustained Peak Load:** Apple Silicon is remarkably power-efficient, which allows the fanless design to handle demanding bursts of work without throttling. However, it is not engineered for sustained, long-duration peak performance in the same way the MacBook Pro models (which have active cooling) are. For very long AI training or complex inference tasks, the MacBook Air will eventually throttle to maintain a "cruising speed" that the chassis can dissipate passively.
+*   **Performance Degradation:** Throttling in a fanless Mac is generally not a "hard" crash but a gradual decline in throughput. You might notice that a task, such as an AI model inference or a video export, takes longer to complete if it runs for a long period compared to the first few minutes when the device is still cool.
+
+In short, the Neural Engine does not have a "bypass" for thermal limits; it is part of the integrated chip architecture and is subject to the same thermal management and throttling protections as the rest of the processor.

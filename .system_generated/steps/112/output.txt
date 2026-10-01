@@ -1,0 +1,61 @@
+The search for "Tailscale Mac mini Ollama access from anywhere outside home MacBook Air LLM remote 2026" returned the following summary:
+To access your Ollama instance on a Mac mini from your MacBook Air (or any other device) from anywhere in the world, you can use **Tailscale** to create a secure, private network (tailnet) that links your devices without exposing your services to the public internet[1][2][3].
+
+### Prerequisites
+*   **Tailscale:** Installed and signed in on both your Mac mini and your MacBook Air[4][3].
+*   **Ollama:** Installed on your Mac mini[1][5].
+
+---
+
+### Step 1: Configure Ollama for Remote Access
+By default, Ollama only listens on `localhost` (127.0.0.1)[2][5]. You must configure it to listen on all interfaces so it can receive traffic from your Tailscale network[5][4].
+
+Since Ollama on macOS runs as a background service via `launchd`, a simple environment variable in your shell profile will not work[5]. You need to set it via the system environment:
+
+1.  Open your terminal on the Mac mini.
+2.  Run the following command to set the environment variable for the launch agent:
+    ```bash
+    launchctl setenv OLLAMA_HOST "0.0.0.0:11434"
+    ```
+3.  **Restart Ollama** completely (quit the app from the menu bar and relaunch it) for the changes to take effect[5].
+
+---
+
+### Step 2: Connect via Tailscale
+1.  **Find your Tailscale IP:** On your Mac mini, open the Tailscale menu or run `tailscale ip -4` in the terminal to find its internal Tailscale IP address (e.g., `100.x.y.z`).
+2.  **Verify connection:** From your MacBook Air (while connected to Tailscale), try to reach the Ollama API by running:
+    ```bash
+    curl http://<MAC_MINI_TAILSCALE_IP>:11434/api/tags
+    ```
+    If successful, you will see a JSON response listing your downloaded models[6].
+
+---
+
+### Step 3: Accessing from your MacBook Air
+Now that the connection is established, you have several ways to use the LLM:
+
+*   **Direct API Usage:** Any LLM client or application on your MacBook Air can point to `http://<MAC_MINI_TAILSCALE_IP>:11434` as the base URL[4][6].
+*   **Web Interface (Recommended):** For a ChatGPT-like experience, run **Open WebUI** using Docker on your Mac mini[1][7].
+    *   Once Open WebUI is running (typically on port 3000), you can access it from your MacBook Air's browser at `http://<MAC_MINI_TAILSCALE_IP>:3000`[5][8].
+*   **Tailscale Serve (Optional):** If you prefer not to manage ports manually, you can use `tailscale serve` to expose your local service to your tailnet with a secure URL[9][8]:
+    ```bash
+    tailscale serve --bg 3000
+    ```
+    This allows you to access your interface via a private Tailscale-provided address[9][8].
+
+### Security Warning
+**Do not forward ports (like 11434) on your router to the public internet**[10][11]. By using Tailscale, your Ollama instance remains completely private, encrypted, and accessible *only* to devices authenticated within your personal Tailscale network[2][12][3].
+
+Sources:
+[1] [kdnuggets.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhx3BqzAY6TayQdklYdoPUSEH5fjSljjC2cMcn8wVHpHjxior9S8jzSSP4MiE7bp0BsJoZYTzkdJXxfmf5z0CRNHvEp6i3v4VN_KfxduWRfV4Bb6Rs_Ng5wBlangKTa5N8Nu-BBNNP_st9wYS6wvPTK6Exoq9jjHG2TDU_owuY3NNID2DygIPQ7mxBqNKkPB47MQ==)
+[2] [glukhov.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHb7daf00XthxEJ5XgrCa6b5CCwd0BoJNWlhbwG_Yl2bN2Nzouor9aVuk5covs_47wvYo2kzGH5II7o-16KKykxJIiQUr-jbiii-QvLXu5bQ4YyDeG5OnOiOB69MQ9kiitfyZHU4sz8oYD_wNWcJazp4jUCOhvY)
+[3] [lmsa.app](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtDUudfNzwNpJ9F3m6vbgzY4FZt7sUsPOIaQ1h0-t7DX2gtTuXZcBUiBiFzxbdHpWOYGkO8CsKZksrNSIq6U7RJKy7np9zii0o9pFrJpaPeBF_WUbW6jrdhwqyQxXimXt7iPw_OxBk21BbxtaGt_szzrV_U01Fw8e3eLWUaw19xdcAcjmKGeVX_DoGTVvcXHr6Mlm-OENS3HpWZw==)
+[4] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhYGSsNGWPRGzTJPjB1AgZuVSHqSAviLFW_2M7m-PXz5HbGSicTNiN2KD1JrMTtrmj_cECleqMTGwHa25d1Eva8Oqsks6avg6xKQWBuGr5eAmqDothNBPg-dU2RWQTYFGXjx9voEmwVD-jowcXi0Fx2c7PZpZjnvcwuUC_rSatYPQauOyK2FAIADieP_i2MJcOOK9EPpC6BqIpQJ4ejx9a46dPEKlj8Fj93mGb7LwzJjSBBgLilKDQdDo=)
+[5] [guydevops.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3Es6-lBCiiPJT-E6p5IxDfCb8dmTIiRFsO_h60_DA28DVF8bDukFmfvlmKoASrY6eVReKEOTIkC7ptw9zP_Lvj7lfmcWuZI8kmsTKc-etLcXpCdoC0S5SvPf-Y3ZOfknnSaJO3UCY-HrpTK5MI0_A)
+[6] [dev.to](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7dhMMiW8QRzJ1oSyzLhRCLIKGFdkStZUX_X2yf1khzczaeoGT6KODHCsq6dO7j6JzX9zVBEKUo0MBpQyZGj1O-M40QFqjZpF53aJtJZJOG9EcWrKKdqHcnIinNi5nE77sTELOHFPN1DksNZzAk6hiozVmHwV2vZwLDSJic94LX9umE4NTxxpFyg95EZB02SAZHp_HLQ==)
+[7] [laurentsv.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_pvRLUokNG_ZSCOOSHbxINQVEjDphicwyEWNccyXIENGkK7SNy8G9L7_L0QnddnyQKzg8j1vPUnHF1XEHcVWX8UyCRLxyATvIvIhqm6otw8sEYnmUiWOMraEnEGc3DL1DlciEFNfRnBUcEekDOy0Ple8pBvzYNU0rfkg=)
+[8] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMPFb7muPNAjNo6jJhpvAItw81OVA9KStnStiorBMM1rFK-dFykH--xmpU4pnvYoW7aiRbng3g8pVijtsm-OrZcvQQpMDhUp4RHHD98RmSxiqeka6AbLF8Q6Yr88-WQTyiyiyJNXKnVjNwUy3_baW-uBlQWtntvwY=)
+[9] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERuFvoMyCmNC3ze0-KfF9g4ZZKSr1VWpEGjoimHzrIpGfmroAZaQA7jOY7ukPVUYC4fVBS9aqA_hm3iYn1TShUw7SlN2YQE6YNnjS8gtZaxUxEvmQlj4kkZywGJCjNeWaHRRKROMzWe3QM8ga7GsBIMZYKZQA82p1144vpdFC8Wch0DT_5MIRnwFqhDMpTjUfcaq_MuQ==)
+[10] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLhztKsljxObvjmTTHuheRVw_oWciXrnYnvtiWKUOgx_nO0Zj94vAArfOyinyCPuVYV-r_V5dH02w_Kng1mriLHh-WDlFSQYs0nQZcm-xsAWfyRoHQ6pfVEPAFsljrM9CokA1vB8c_zDGGIi3EGAaXx2tZmb0YciNIAVIdFJzuQAwXLtcfV6F5WzClp3aD5jF732ghrfbOkBzBn7OCxLM=)
+[11] [mayhemcode.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEq1afbvulLXIu5ULjf-O8PmAb8QqNGCDereYnVT8rzHGBMrElnofJe752Mvzw_Z2n2rfIOxMxWNLd9YsZpVufT6miXlVgaParLr7vHsoBrnqd3uK56FvF9K01cFmMo2T59i3P1jAMLmJVrW_nYegwKTsFQMWNaVLSzYAW1tef9Zaz2-KY=)
+[12] [dev.to](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7dhMMiW8QRzJ1oSyzLhRCLIKGFdkStZUX_X2yf1khzczaeoGT6KODHCsq6dO7j6JzX9zVBEKUo0MBpQyZGj1O-M40QFqjZpF53aJtJZJOG9EcWrKKdqHcnIinNi5nE77sTELOHFPN1DksNZzAk6hiozVmHwV2vZwLDSJic94LX9umE4NTxxpFyg95EZB02SAZHp_HLQ==)

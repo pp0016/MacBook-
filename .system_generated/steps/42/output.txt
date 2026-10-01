@@ -1,0 +1,30 @@
+The following changes were made by the replace_file_content tool to: C:\Users\renu5\.gemini\antigravity\brain\4822e66b-d57e-4765-a405-82816c5bc417\m3_vs_m4_vs_m5_comparison.md. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -23,17 +23,20 @@
+ | Specification | M3 (Oct 2023) | M4 (May 2024) | M5 (Oct 2025) |
+ |:---|:---|:---|:---|
+ | **Process Node** | TSMC N3B (1st gen 3nm) | TSMC N3E (2nd gen 3nm) | TSMC N3P (3rd gen 3nm) |
+-| **Transistors** | 25 billion | 28 billion | ~28 billion |
++| **Transistors** | 25 billion | 28 billion | Not officially disclosed (~28–40B est.) |
+ | **CPU Cores** | 8 (4P + 4E) | 10 (4P + 6E) | 10 (4 "Super" + 6E) |
++| **P-Core Clock** | Up to 4.05 GHz | Up to 4.41–4.51 GHz | Up to 4.61 GHz |
++| **E-Core Clock** | Up to 2.75 GHz | Up to 2.90 GHz | Up to ~3.0 GHz |
+ | **GPU Cores** | 8 or 10 | 8, 9, or 10 | 8 or 10 |
+-| **Neural Engine** | 16-core, 18 TOPS | 16-core, 38 TOPS | 16-core, ~50 TOPS (estimated) + Neural Accelerators in every GPU core |
+-| **Memory Type** | LPDDR5 | LPDDR5X | LPDDR5X |
++| **Neural Engine** | 16-core, 18 TOPS | 16-core, 38 TOPS | 16-core (TOPS undisclosed) + Neural Accelerators in every GPU core |
++| **Memory Type** | LPDDR5-6400 | LPDDR5X-7500 | LPDDR5X (high-speed) |
+ | **Memory Bandwidth** | 100 GB/s | 120 GB/s | 153 GB/s |
+ | **Base RAM** | 8 GB (Air), 8 GB (Pro) | 16 GB (all models) | 16 GB (all models) |
+ | **Max RAM (base chip)** | 24 GB | 32 GB | 32 GB |
+-| **Thunderbolt** | USB4 (40 Gb/s) | Thunderbolt 4 (40 Gb/s) | Thunderbolt 4 (40 Gb/s) |
++| **Thunderbolt** | Thunderbolt 3 / USB4 (40 Gb/s) | Thunderbolt 4 (40 Gb/s) | Thunderbolt 4 (40 Gb/s) |
+ | **Wi-Fi** | Wi-Fi 6E | Wi-Fi 6E | Wi-Fi 7 (via N1 chip) |
+ | **Bluetooth** | 5.3 | 5.3 | 6 |
++| **Package Power (sustained)** | ~15W (fanless Air) | ~5–18W (Air), ~28–30W burst (Pro) | ~23–27.5W sustained, ~30.5W burst |
+ 
+ ### What Each Column Actually Means
+ 
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

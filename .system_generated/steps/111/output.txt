@@ -1,0 +1,17 @@
+The search for "site:reddit.com Mac mini headless Ollama server MacBook Air "100%" performance latency experience LLM 2025 2026" returned the following summary:
+Using a Mac mini as a headless Ollama server is widely considered the superior choice for local LLM workloads compared to a MacBook Air. While both utilize Apple Silicon, the Mac mini is actively cooled and designed for sustained performance, whereas the MacBook Air is a fanless, portable machine prone to thermal throttling during heavy, continuous inference loads.
+
+### Performance & Latency Experience
+*   **Sustained Performance:** The Mac mini’s active cooling allows it to maintain consistent performance indefinitely. In contrast, running Ollama at "100%" utilization on a MacBook Air will quickly lead to thermal throttling, where the system slows down the processor to manage heat, significantly degrading token generation speeds.
+*   **Headless Optimization:** Setting up a Mac mini as a headless server (managed via SSH/Remote Login) is a common and highly regarded practice. Users often configure them to "never sleep" and utilize energy settings like "High Power Mode" to ensure the model remains responsive for 24/7 agentic or RAG (Retrieval-Augmented Generation) workloads.
+*   **Memory Bandwidth:** The performance of local LLMs on Apple Silicon is heavily dependent on unified memory bandwidth. The Mac mini's architecture allows for high-speed access to model weights, making it a "practical" local AI platform in 2026 for those who need privacy and low latency without the cost of high-end NVIDIA GPU server rigs.
+
+### Key Considerations for Your Setup
+*   **Memory is King:** RAM is the most critical constraint. Models like 70B (at Q4 quantization) require 64GB of unified memory to run comfortably. For coding assistants and smaller models (e.g., 8B–30B), 24GB to 32GB is often cited as the "sweet spot" for performance and cost.
+*   **MacBook Air Limitations:** While you can run small models (e.g., 3B–8B) on a MacBook Air, it is not recommended for "always-on" server duties. If you only perform sporadic tasks, it may suffice, but for reliable, long-running agentic pipelines, the MacBook Air will likely struggle with memory pressure and thermal limits.
+*   **Server Configuration Tips:** 
+    *   **OS Settings:** Disable automatic sleep, enable "Wake for network access," and set up "Remote Login" (SSH) for headless management.
+    *   **Ollama/Software:** Use Ollama or `llama.cpp` directly. Some users prefer `llama.cpp` for more granular control over KV cache and model swapping, though Ollama is favored for its ease of use.
+    *   **Networking:** Avoid running too many Docker containers or conflicting services directly on the Mac's macOS host if you want maximum stability; some power users prefer a dedicated Linux box for general services and a Mac exclusively for LLM inference.
+
+**Recommendation:** If your goal is a dedicated, reliable LLM server, the **Mac mini (M4/M5 series with 32GB+ RAM)** is the community-standard recommendation. It offers the best balance of power efficiency, acoustic silence, and sustained AI performance, keeping your local data private while avoiding the thermal pitfalls of the MacBook Air.

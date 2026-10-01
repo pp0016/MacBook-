@@ -1,0 +1,83 @@
+
+The command exited with code 0.
+Output:
+Cloning into 'C:\Users\renu5\.gemini\antigravity\scratch\MacBook-Archive'...
+
+
+    Directory: C:\Users\renu5\.gemini\antigravity\scratch\MacBook-Archive
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        01-10-2026  06:31 PM                artifacts                                                            
+d-----        01-10-2026  06:31 PM                logs                                                                 
+
+FullName : C:\Users\renu5\.gemini\antigravity\scratch\MacBook-Archive\Artifacts
+
+
+FullName : C:\Users\renu5\.gemini\antigravity\scratch\MacBook-Archive\logs
+
+
+FullName : C:\Users\renu5\.gemini\antigravity\scratch\MacBook-Archive\Transcripts
+
+
+FullName : C:\Users\renu5\.gemini\antigravity\scratch\MacBook-Archive\README.md
+
+
+FullName : C:\Users\renu5\.gemini\antigravity\scratch\MacBook-Archive\Artifacts\m3_vs_m4_vs_m5_comparison.md
+
+
+FullName : C:\Users\renu5\.gemini\antigravity\scratch\MacBook-Archive\Artifacts\m5_air_local_ai_capabilities.md
+
+
+FullName : C:\Users\renu5\.gemini\antigravity\scratch\MacBook-Archive\Artifacts\m5_air_neural_accelerators_explained.md
+
+
+FullName : C:\Users\renu5\.gemini\antigravity\scratch\MacBook-Archive\Artifacts\macbook_decision_analysis.md
+
+
+FullName : C:\Users\renu5\.gemini\antigravity\scratch\MacBook-Archive\Artifacts\tech_spec_researcher_agent.md
+
+
+FullName : C:\Users\renu5\.gemini\antigravity\scratch\MacBook-Archive\logs\transcript.jsonl
+
+
+FullName : C:\Users\renu5\.gemini\antigravity\scratch\MacBook-Archive\logs\transcript_full.jsonl
+
+
+FullName : C:\Users\renu5\.gemini\antigravity\scratch\MacBook-Archive\Transcripts\MainSession
+
+
+FullName : C:\Users\renu5\.gemini\antigravity\scratch\MacBook-Archive\Transcripts\Subagents
+
+
+FullName : C:\Users\renu5\.gemini\antigravity\scratch\MacBook-Archive\Transcripts\MainSession\transcript.jsonl
+
+
+FullName : C:\Users\renu5\.gemini\antigravity\scratch\MacBook-Archive\Transcripts\MainSession\transcript_full.jsonl
+
+
+FullName : C:\Users\renu5\.gemini\antigravity\scratch\MacBook-Archive\Transcripts\Subagents\PlatformResearcher
+
+
+FullName : C:\Users\renu5\.gemini\antigravity\scratch\MacBook-Archive\Transcripts\Subagents\TechSpecResearcher
+
+
+FullName : C:\Users\renu5\.gemini\antigravity\scratch\MacBook-Archive\Transcripts\Subagents\PlatformResearcher\transcri
+           pt.jsonl
+
+
+FullName : C:\Users\renu5\.gemini\antigravity\scratch\MacBook-Archive\Transcripts\Subagents\PlatformResearcher\transcri
+           pt_full.jsonl
+
+
+FullName : C:\Users\renu5\.gemini\antigravity\scratch\MacBook-Archive\Transcripts\Subagents\TechSpecResearcher\transcri
+           pt.jsonl
+
+
+FullName : C:\Users\renu5\.gemini\antigravity\scratch\MacBook-Archive\Transcripts\Subagents\TechSpecResearcher\transcri
+           pt_full.jsonl
+
+
+
+
